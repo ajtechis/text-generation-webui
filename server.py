@@ -126,8 +126,8 @@ def create_interface():
 
         # Text Generation tab
         ui_chat.create_ui()
-        # ui_default.create_ui()
-        # ui_notebook.create_ui()
+        ui_default.create_ui()
+        ui_notebook.create_ui()
 
         ui_parameters.create_ui(shared.settings['preset'])  # Parameters tab
         ui_model_menu.create_ui()  # Model tab
